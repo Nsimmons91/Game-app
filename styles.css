@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+}
+
+h1 {
+  color: #efebeb;
+}
+
+.coin {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  background-size: cover;
+}
+
+.heads {
+  background-image: url('https://drive.google.com/file/d/1qCiLLerKPQ24FzLmsWcrLXp8FjOqN4Vf/view?usp=sharing'); /* Replace with actual image path */
+}
+
+.tails {
+  background-image: url('https://drive.google.com/file/d/1ZZryf2wAiNDK2TqmJLhKryDEDHq6h0ZU/view?usp=sharing'); /* Replace with actual image path */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+ 
+
