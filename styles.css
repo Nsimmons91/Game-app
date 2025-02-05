@@ -29,6 +29,13 @@ button:hover {
   font-size: 18px;
 }
 
+.heads {
+  background-image: url(../Harriet T.jpeg);
+}
+
+.tails {
+  background-image: url(../Harriet T tails coin.jpg);
+}
 
 .result-heads {
   color: rgb(233, 10, 10);
