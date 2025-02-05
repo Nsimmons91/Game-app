@@ -3,37 +3,43 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #000000;
+  color: #e5c10d;
 }
 
 h1 {
-  color: #efebeb;
-}
-
-.coin {
-  width: 150px;
-  height: 150px;
-  margin: 20px auto;
-  background-size: cover;
-}
-
-.heads {
-  background-image: url('https://drive.google.com/file/d/1qCiLLerKPQ24FzLmsWcrLXp8FjOqN4Vf/view?usp=sharing'); /* Replace with actual image path */
-}
-
-.tails {
-  background-image: url('https://drive.google.com/file/d/1ZZryf2wAiNDK2TqmJLhKryDEDHq6h0ZU/view?usp=sharing'); /* Replace with actual image path */
+  color: #07ce1b;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin-top: 20px;
+  background-color:#e81818 ;
+  font-size: 16px ;
+  color: rgb(232, 195, 9);
+  padding: 10px ;
+  border-radius: 4px ;
   cursor: pointer;
+
 }
 
-.result {
+button:hover {
+  background-color: #033808;
+}
+
+#game-status {
   margin-top: 20px;
   font-size: 18px;
 }
+
+
+.result-heads {
+  color: rgb(233, 10, 10);
+}
+
+.result-tails {
+  color:#07ce1b ;
+}
+
+
+
+
  
 
