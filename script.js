@@ -21,6 +21,7 @@ else{
     tails++;
     }
 setTimeout(updateScore,6000);
+disableButton();
 });
 
 function updateScore() {
