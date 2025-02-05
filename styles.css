@@ -3,14 +3,15 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #000000;
-  color: #e5c10d;
+  color:#e81818;
+  font-size: xx-large;
 }
 
 .heading {
   text-align: center;
   font-size: xx-large ;
   font-weight: bolder ;
-  background-color: ;
+  background-color:#e5c10d;
   margin-left: 20%;
   margin-right: 20%;
   color: #07ce1b;
@@ -23,10 +24,11 @@ body {
   background-color: ;
   margin-left: 30%;
   margin-right: 30%;
-  color: #07ce1b;
+  color: #e5c10d;
 }
 
 .container {
+  background-color: #033808;
   position: absolute;
   width: 360px;
   padding: 35px;
@@ -36,23 +38,22 @@ body {
   box-shadow: 15px 30px 35px 
   border-radius: 30px;
 }
+
 .score{
   display: flex;
   justify-content: space-between ;
   font-size: larger;
   font-weight: 600 ;
   padding: 20px;
-  background-color: ;
+  background-color: #000000 ;
   margin-top: 50px;
   margin-bottom: 30px;
-  box-shadow: 0 0 10px #e5c10d;
-  color: #07ce1b;
+  box-shadow: 0 0 30px #e5c10d;
+  color: #e81818;
 }
+
 .score p:nth-last-child(1) {
   margin-left:50%;
-}
-
-
 }
 
 #game-status {
@@ -110,19 +111,35 @@ body {
 button {
   width: 120px;
   background-color:#e81818 ;
-  font-size: 20px ;
+  font-size: x-large ;
+  font-weight: 750;
   color: rgb(232, 195, 9);
   padding: 20px 0px ;
   border-radius: 10px ;
   cursor: pointer;
-
 }
 
 button:hover {
-  background-color: #033808;
-.result-heads {
-  color: rgb(233, 10, 10);
-}
+  background-color: #e5c10d;
+  color: #000000;
+  font-size: x-large ;
+  font-weight: 750;
+} 
+
+ /* #flip-button {
+  background-color:#e81818 ;
+  font-size: x-large ;
+  font-weight: 750;
+  color: rgb(232, 195, 9);
+}  */
+
+/* #reset-button {
+  background-color:#e81818 ;
+  font-size: x-large ;
+  font-weight: 750;
+  color: rgb(232, 195, 9);
+} */
+
 
 .result-tails {
   color:#07ce1b ;
