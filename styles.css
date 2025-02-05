@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
-  background-color: #000000;
+  background-color: #f5f1f1;
   color: #e5c10d;
 }
 
@@ -29,12 +29,39 @@ button:hover {
   font-size: 18px;
 }
 
-.heads {
-  background-image: url(../Harriet T.jpeg);
+.coin {
+
+  position: relative;
+  margin-top: 20px auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  perspective: 1000px;
 }
 
-.tails {
-  background-image: url(../Harriet T tails coin.jpg);
+.coin::before, .coin::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  transition: transform 1s;
+  background-size: cover;
+}
+
+.coin: :before {
+  background-image: url(../Harriet T.jpeg);
+  transform: translateZ(1px)
+}
+
+.coin: :after{
+  background-image: url(../Harriet T.jpeg);
+  transform: rotateY(180deg);
+}
+
+.flip {
+  transform: rotateY(360deg);
 }
 
 .result-heads {
