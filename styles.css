@@ -1,13 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
+ text-align: center;
   padding: 20px;
   background-color: #000000;
   color:#e81818;
   font-size: xx-large;
-}
-
-.heading {
+ }
+ 
+ 
+ .heading {
   text-align: center;
   font-size: xx-large ;
   font-weight: bolder ;
@@ -15,9 +16,8 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   color: #07ce1b;
-}
-
-.text{
+ }
+ .text{
   text-align: center;
   font-size: x-large ;
   font-weight: 700 ;
@@ -25,9 +25,10 @@ body {
   margin-left: 30%;
   margin-right: 30%;
   color: #e5c10d;
-}
-
-.container {
+ }
+ 
+ 
+ .container {
   background-color: #033808;
   position: absolute;
   width: 360px;
@@ -35,14 +36,15 @@ body {
   transform: translate(-50%, -50%);
   top:50%;
   left:50%;
-  box-shadow: 15px 30px 35px 
+  box-shadow: 15px 30px 35px
   border-radius: 30px;
-}
-
-.score{
+ }
+ 
+ 
+ .score{
   display: flex;
   justify-content: space-between ;
-  font-size: larger;
+  font-size: large;
   font-weight: 600 ;
   padding: 20px;
   background-color: #000000 ;
@@ -50,69 +52,74 @@ body {
   margin-bottom: 30px;
   box-shadow: 0 0 30px #e5c10d;
   color: #e81818;
-}
-
-.score p:nth-last-child(1) {
+ }
+ 
+ 
+ .score p:nth-last-child(1) {
   margin-left:50%;
-}
-
-#game-status {
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-.coin {
+ }
+ 
+ .coin {
   position: relative;
   margin: 32px auto;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   width: 150px;
   height: 150px;
-}
-.coin img{
+ }
+ 
+ 
+ .coin img{
   width: 100%;
   border-radius:100px;
-}
-
-/* #coins {
+ }
+ 
+ 
+ #coins {
   width: 160px;
-} */
-
-.heads, .tails {
+ }
+ 
+ 
+ .heads, .tails {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-}
-
-.tails{
+ }
+ 
+ 
+ .tails{
   transform: rotatex(180deg);
-}
-
-@keyframes spin-tails {
+ }
+ 
+ 
+ @keyframes spin-tails {
   0% {
     transform: rotateX(0);
   }
   100%{
     transform: rotateX(1980deg);
   }
-}
-
-@keyframes spin-heads {
+ }
+ 
+ 
+ @keyframes spin-heads {
   0% {
     transform: rotateX(0);
   }
   100%{
     transform: rotateX(2160deg);
   }
-}
-
-.buttons {
+ }
+ 
+ 
+ .buttons {
   display: flex;
   justify-content: space-between;
-}
-
-button {
+ }
+ 
+ 
+ button {
   width: 150px;
   background-color:#e81818 ;
   font-size: large ;
@@ -121,31 +128,31 @@ button {
   padding: 20px 0px ;
   border-radius: 10px ;
   cursor: pointer;
-}
-
-/* #flip-button:hover { */
-  /* background-color: #e5c10d;
+ }
+ 
+ 
+ #flip-button:hover {
+   background-color: #e5c10d;
   color: #000000;
   font-size: x-large ;
   font-weight: 750;
-}  */
-
-  #flip-button {
+ }
+ 
+ 
+ #flip-button {
   background-color:#e81818 ;
   font-size: x-large ;
   font-weight: 750;
   color: rgb(232, 195, 9);
-}  
-
+ }  
+ 
+ 
  #reset-button {
   background-color:#e81818 ;
   font-size: x-large ;
   font-weight: 750;
   color: rgb(232, 195, 9);
-} 
-
-
-
-
+ }
  
-
+ 
+ 

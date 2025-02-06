@@ -1,5 +1,6 @@
 let heads = 0;
 let tails = 0;
+
 let coin = document.querySelector(".coin");
 let flipBtn = document.querySelector("#flip-button");
 let resetBtn = document.querySelector("#reset-button");
@@ -21,7 +22,6 @@ else{
     tails++;
     }
 setTimeout(updateScore,6000);
-disableButton();
 });
 
 function updateScore() {
@@ -31,8 +31,10 @@ function updateScore() {
 }
 
 resetBtn.addEventListener("click", () => [
-    coin.style.animation = "none";
-    heads = 0;
-    tails = 0;
-    updateScore();
-]);
+    coin.style.animation = "none",
+    heads = 0,
+    tails = 0,
+     updateScore()
+ ]);
+
+ 
