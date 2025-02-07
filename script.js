@@ -7,9 +7,9 @@ let resetBtn = document.querySelector("#reset-button");
 const resultText = document.getElementById('result-text');
 
 flipBtn.addEventListener("click", () => {
-    let i = Math.floor(Math.random() * 2);
+    const isHeads = Math.random() < 0.5 ;
     coin.style.animation = "none";
-    if (i) {
+    if (isHeads) {
         setTimeout(function(){
             coin.style.animation = "spin-heads 6s forwards";
 }, 100);
