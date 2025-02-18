@@ -7,7 +7,6 @@ body {
   font-size: xx-large;
  }
  
- 
  .heading {
   text-align: center;
   font-size: xx-large ;
@@ -53,11 +52,6 @@ body {
   color: #e81818;
  }
  
- 
- /* .score p:nth-last-child(1) { */
-  /* margin-left:50%; */
- /* } */
- 
  .coin {
   position: relative;
   margin: 32px auto;
@@ -66,7 +60,6 @@ body {
   width: 150px;
   height: 150px;
  }
- 
  
  .coin img{
   width: 100%;
@@ -93,7 +86,6 @@ body {
   }
  }
  
- 
  @keyframes spin-heads {
   0% {
     transform: rotateX(0);
@@ -103,12 +95,10 @@ body {
   }
  }
  
- 
  .buttons {
   display: flex;
   justify-content: space-between;
  }
- 
  
  button {
   width: 150px;
@@ -120,7 +110,6 @@ body {
   border-radius: 10px ;
   cursor: pointer;
  }
- 
  
  #flip-button:hover {
    background-color: #e5c10d;
@@ -142,7 +131,6 @@ body {
   font-weight: 750;
   color: rgb(232, 195, 9);
  }  
- 
  
  #reset-button {
   background-color:#e81818 ;
